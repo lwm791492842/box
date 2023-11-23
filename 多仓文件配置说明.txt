@@ -11,7 +11,7 @@
 主文件明细配置说明：
 { ///第一层括号，说明多仓主文件涵盖的内容范围
 "storeHouse": [  ///storehouse 仓库定义的关键字，中括号中为仓库定义的内容范围
-{"sourceName":"💚多多优选仓🍭软件接口🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/a.txt"},  ///sourcename 单个仓库源的名称，可自己起名字。sourceUrl 当个仓库源的文件链接，仓库源的链接可能为txt也可能为json文件，该路劲为原始路径非raw读取路径。
+{"sourceName":"💚多多优选仓🍭软件接口🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/a.txt"},  ///sourcename 单个仓库源的名称，可自己起名字。sourceUrl 当个仓库源的文件链接，仓库源的链接可能为txt也可能为json文件，若仓库源文件不是最底层的配置文件，地址就是原始地址，若仓库源文件是最底层的接口配置文件，就是写raw读取地址。
 {"sourceName":"💛多多公众仓🍭完全免费🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/b.txt"},
 {"sourceName":"❤️多多聚合仓🍭严禁贩卖🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/c.txt"},
 {"sourceName":"💜多多预备仓🍭不做韭菜🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/d.txt"},
