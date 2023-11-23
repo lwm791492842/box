@@ -12,7 +12,6 @@
 {"sourceName":"云星","sourceUrl":"http://itvbox.cc/tvbox/云星日记/1.m3u8"},
 {"sourceName":"多多家庭","sourceUrl":"http://yydsys.top/duo2"},
 {"sourceName":"多多备用","sourceUrl":"https://pan.shangui.cc/f/v68xuk/xm.json"},
-{"sourceName":"阿里精品","sourceUrl":"http://yydsys.top/duo/ali"},
 {"sourceName":"阿里备用","sourceUrl":"https://pan.shangui.cc/f/eoVMFQ/ppa.json"},
 {"sourceName":"多仓","sourceUrl":"https://jihulab.com/iduo/apps/-/raw/main/fast.json"},
 {"sourceName":"多线路","sourceUrl":"https://jihulab.com/iduoduo/apps/-/raw/main/duo.json"},
