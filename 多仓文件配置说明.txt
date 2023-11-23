@@ -1,4 +1,4 @@
-多仓主文件配置说明：
+一、多仓主文件配置说明：
  主文件示例：
 {
 "storeHouse": [ 
@@ -17,4 +17,32 @@
 {"sourceName":"💜多多预备仓🍭不做韭菜🍭","sourceUrl":"https://cdn.gitmirror.com/gl/duomv/apps/main/d.txt"},
 {"sourceName":"☁️云星在线仓库","sourceUrl":"https://maoyingshi.cc/可视TV/云星日记/仓库/api.json"}  
 ]}
-更改配置不同的仓库源只需要更改sourcname后面双引号部分即可更改仓库名称，将新的仓库源配置文件路径更新到sourceUrl后面的双引号中去即可。增加仓库源按照单行的格式直接复制然后替换源名称和路径即可。最后一行的仓库源不需要英文的逗号分隔
+更改配置不同的仓库源只需要更改sourcname后面双引号部分即可更改仓库名称，将新的仓库源配置文件路径更新到sourceUrl后面的双引号中去即可。增加仓库源按照单行的格式直接复制然后替换源名称和路径即可。最后一行的仓库源不需要英文的逗号分隔。
+
+二、多接口（json）整合成单个文件配置说明：
+单文件多接口明细示例：
+{
+    "urls": [
+        { "url": "http://yydsys.top/duo/v.json","name": "🚨软件接口均免费严禁贩卖🚨"},
+        {"url": "http://yydsys.top/duo","name": "🏡应用多多家庭版"},
+        {"url": "https://pan.shangui.cc/f/v68xuk/xm.json","name": "🏡应用多多备用"},
+        {"url": "http://yydsys.top/duo/ali","name": "🚀阿里精品专线"}, 
+        {"url": "https://pan.shangui.cc/f/eoVMFQ/ppa.json","name": "🚀阿里备用专线"}, 	
+        {"url": "http://饭太硬.top/tv","name": "🚀饭太硬线路"},                      
+        {"url": "http://肥猫.live","name": "🚀肥猫线路"}
+            ]
+}
+
+单文件多接口配置说明：
+{
+    "urls": [  ///urls 接口文件路径定义  中括号为路径明细内容范围
+        { "url": "http://yydsys.top/duo/v.json","name": "🚨软件接口均免费严禁贩卖🚨"}, ///url 接口文件路径定义  url后面的双引号内容为接口文件的raw访问路径非原始路径。name后面双引号为给改接口文件的自定义名称，可随意更改
+        {"url": "http://yydsys.top/duo","name": "🏡应用多多家庭版"},
+        {"url": "https://pan.shangui.cc/f/v68xuk/xm.json","name": "🏡应用多多备用"},
+        {"url": "http://yydsys.top/duo/ali","name": "🚀阿里精品专线"}, 
+        {"url": "https://pan.shangui.cc/f/eoVMFQ/ppa.json","name": "🚀阿里备用专线"}, 	
+        {"url": "http://饭太硬.top/tv","name": "🚀饭太硬线路"},                      
+        {"url": "http://肥猫.live","name": "🚀肥猫线路"}
+            ]
+}
+
