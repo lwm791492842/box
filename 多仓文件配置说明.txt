@@ -46,3 +46,15 @@
             ]
 }
 
+三、接口（json）文件配置说明
+"spider":"https://raw.githubusercontent.com/lwm791492842/box/main/tvboxspider.jar",   ///使用的爬虫文件及路径说明
+"wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=2",//更改客户端背景图片使用的链接  
+///以下为电视直播源的配置
+"lives":[{
+		    "name": "live",  ///固定不变
+		    "type": 0, ///固定不变
+		    "url": "https://raw.githubusercontent.com/lwm791492842/box/main/tvliveall.txt",   ///电视直播源文件的raw读取路径
+		    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",  ///电视频道节目表获取的服务器的路径
+		    "logo": "https://epg.112114.xyz/logo/{name}.png"  ///电视频道台标logo的服务器路径
+	    }],
+
