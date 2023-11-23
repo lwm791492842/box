@@ -5,7 +5,7 @@
          {
             "name": "自用",
             "type": 0,
-            "url": "https://raw.gitmirror.com/lwm791492842/master/livenormal.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/lwm791492842/box/main/livenormal.txt",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
