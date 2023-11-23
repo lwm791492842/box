@@ -10,7 +10,6 @@
 {"sourceName":"莱妮丝","sourceUrl":"https://tvbox.cainisi.cf"},
 {"sourceName":"神器","https://神器每日推送.tk/pz.json"},
 {"sourceName":"云星","sourceUrl":"http://itvbox.cc/tvbox/云星日记/1.m3u8"},
-{"sourceName":"多多家庭","sourceUrl":"http://yydsys.top/duo2"},
 {"sourceName":"多多备用","sourceUrl":"https://pan.shangui.cc/f/v68xuk/xm.json"},
 {"sourceName":"阿里备用","sourceUrl":"https://pan.shangui.cc/f/eoVMFQ/ppa.json"},
 {"sourceName":"多仓","sourceUrl":"https://jihulab.com/iduo/apps/-/raw/main/fast.json"},
